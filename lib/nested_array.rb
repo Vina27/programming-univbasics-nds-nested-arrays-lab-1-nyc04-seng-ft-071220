@@ -42,7 +42,7 @@ end
   # Return the matrix's content at that row and and column
 
 def matrix_update(matrix, row, column, new_value)
-  matrix 
+  matrix[row][column] << new_value
   
 end 
   # Given any matrix (array of arrays), a row index and a column index, 
